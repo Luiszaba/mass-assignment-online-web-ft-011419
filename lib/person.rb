@@ -9,5 +9,5 @@ class Person
     @@all << self
   end
   
-  
+end
 end
