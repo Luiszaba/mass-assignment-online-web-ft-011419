@@ -8,4 +8,6 @@ class Person
     attributes.each {|attribute, value| self.send(("#{attribute=}")), value)}
     @@all << self
   end
+  
+  
 end
